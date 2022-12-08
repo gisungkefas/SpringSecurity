@@ -1,14 +1,10 @@
 package com.kefas.SpringSecurity.entities;
 
-import com.dcagon.decapay.enums.Status;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
-import org.springframework.data.mongodb.core.index.Indexed;
-import org.springframework.data.mongodb.core.mapping.Document;
-
-import javax.persistence.*;
+import org.springframework.stereotype.Indexed;
 import java.io.Serializable;
 import java.util.Date;
 

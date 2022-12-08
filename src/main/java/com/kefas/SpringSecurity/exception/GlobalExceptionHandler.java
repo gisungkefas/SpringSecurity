@@ -1,5 +1,6 @@
 package com.kefas.SpringSecurity.exception;
-import com.dcagon.decapay.pojos.ApiResponse;
+
+import com.kefas.SpringSecurity.pojos.ApiResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;

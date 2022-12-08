@@ -1,4 +1,5 @@
 package com.kefas.SpringSecurity.pojos.user;
+
 import lombok.Data;
 
 @Data

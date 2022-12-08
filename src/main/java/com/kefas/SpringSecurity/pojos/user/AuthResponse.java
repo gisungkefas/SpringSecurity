@@ -1,5 +1,6 @@
 package com.kefas.SpringSecurity.pojos.user;
-import com.dcagon.decapay.entities.User;
+
+import com.kefas.SpringSecurity.entities.User;
 import lombok.Data;
 
 @Data

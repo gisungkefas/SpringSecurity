@@ -1,13 +1,12 @@
 package com.kefas.SpringSecurity.services;
 
-import com.dcagon.decapay.entities.User;
-import com.dcagon.decapay.respositories.UserRepository;
-import com.dcagon.decapay.utils.AppUtil;
+import com.kefas.SpringSecurity.entities.User;
+import com.kefas.SpringSecurity.respositories.UserRepository;
+import com.kefas.SpringSecurity.utils.AppUtil;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-
 import java.util.ArrayList;
 
 @Service

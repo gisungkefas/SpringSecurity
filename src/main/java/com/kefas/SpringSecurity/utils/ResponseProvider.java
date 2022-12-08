@@ -1,5 +1,6 @@
 package com.kefas.SpringSecurity.utils;
-import com.dcagon.decapay.pojos.ApiResponse;
+
+import com.kefas.SpringSecurity.pojos.ApiResponse;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
